@@ -81,16 +81,14 @@ export default {
         text-decoration: none;
         font-size: 20px;
         display: block;
+        padding: 14px 16px;
         font-family: 'Josefin Sans', sans-serif;
     }
 
     a:visited{
         color: white;
     }
-    .d-block{
-        display: block;
-        padding: 14px 16px;
-    }
+    
 }
 
 @media only screen and (max-width: 860px){
