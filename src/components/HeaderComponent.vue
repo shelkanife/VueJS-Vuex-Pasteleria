@@ -76,7 +76,7 @@ export default {
         cursor: pointer;
     }
 
-    #nav.item a{
+    .item a{
         color: white;
         text-decoration: none;
         font-size: 20px;
