@@ -19,12 +19,12 @@ const Store = new Vuex.Store({
             {flavor:'Gourmet',price:'598',cakeUrl:'https://i.pinimg.com/originals/4c/06/e6/4c06e624728602a9862d7ec9e9e27369.jpg'},
         ],
         ornaments:[
-            {ornament:'Crema pastelera',price:'212',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'},
-            {ornament:'Fondant',price:'154',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'},
-            {ornament:'Azucar glass',price:'234',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'},
-            {ornament:'Frutos secos',price:'187',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'},
-            {ornament:'Chispas de sabores',price:'159',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'},
-            {ornament:'Gache',price:'110',cakeUrl:'http://hazgrandestuscomidas.com/blog/wp-content/uploads/2016/08/como-hacer-crema-pastelera.jpg'}
+            {ornament:'Crema pastelera',price:'212',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'},
+            {ornament:'Fondant',price:'154',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'},
+            {ornament:'Azucar glass',price:'234',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'},
+            {ornament:'Frutos secos',price:'187',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'},
+            {ornament:'Chispas de sabores',price:'159',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'},
+            {ornament:'Gache',price:'110',cakeUrl:'https://images.pexels.com/photos/7525114/pexels-photo-7525114.jpeg'}
         ],
         flavorList: [
             {name:'Chocolate',price:199,imgURL:"https://cdn-icons-png.flaticon.com/512/7095/7095673.png",amount:13,type:'flavorList'},
