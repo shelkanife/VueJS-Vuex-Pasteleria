@@ -2,11 +2,11 @@
     <header id="header">
         <LogoComponent id="logoComponent"/>
         <ul id="nav" v-bind:class="isHidden">
-            <li class="item">
-                <router-link to="/order">Pedido personalizado</router-link>
+            <li class="item" @click="toggleHide">
+                <router-link to="/order" class="d-block">Pedido personalizado</router-link>
             </li>
-            <li class="item">
-                <router-link to="/baker">Página del pastelero</router-link>
+            <li class="item" @click="toggleHide">
+                <router-link to="/baker" class="d-block">Página del pastelero</router-link>
             </li>
         </ul>
         <!-- hamburger icon -->
@@ -78,7 +78,6 @@ export default {
 
     #nav .item a{
         color: white;
-        padding: 14px 16px;
         text-decoration: none;
         font-size: 20px;
         display: block;
@@ -87,6 +86,10 @@ export default {
 
     a:visited{
         color: white;
+    }
+    .d-block{
+        display: block;
+        padding: 14px 16px;
     }
 }
 
